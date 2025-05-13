@@ -11,7 +11,8 @@
         <link rel="stylesheet" href="https://3ws.dev.br/3ws.css">
         <link rel="stylesheet" href="style.css">
 
-        <script src="https://3ws.dev.br/tec/js/3ws.js"></script>
+        <script src="https://3ws.dev.br/tec/js/3ws.js">
+        </script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,51 +22,77 @@
     <body>
         <section>
             <h1 class="w100 tcenter">
-                Jogo da Velha!
+                <b> Jogo da Velha! </b>
             </h1>
+
+            <p>
+                <b> O primeiro a jogar é o X </b>
+            </p>
+
+            <div class="divisor-min"></div>
 
             <div class="container">
                 <div class="ncols3 g5 k3">
-                    <div class="b32 box" id="box1"><i class="fa fa-close"></i></div>
-                    <div class="b32 box" id="box2"><i class="fa fa-circulo"></i></div>
-                    <div class="b32 box" id="box3"><i class="fa fa-circulo"></i></div>
-                    <div class="b32 box" id="box4"><i class="fa fa-close"></i></div>
-                    <div class="b32 box" id="box5"><i class="fa fa-close"></i></div>
-                    <div class="b32 box" id="box6"><i class="fa fa-circulo"></i></div>
-                    <div class="b32 box" id="box7"><i class="fa fa-close"></i></div>
-                    <div class="b32 box" id="box8"><i class="fa fa-close"></i></div>
-                    <div class="b32 box" id="box9"><i class="fa fa-close"></i></div>
+                    <div class="b32 box" id="box1">
+                        <i class="fa fa-close">
+                        </i>
+                    </div>
+
+                    <div class="b32 box" id="box2">
+                        <i class="fa fa-circulo">
+                        </i>
+                    </div>
+
+                    <div class="b32 box" id="box3">
+                        <i class="fa fa-circulo">
+                        </i>
+                    </div>
+
+                    <div class="b32 box" id="box4">
+                        <i class="fa fa-close">
+                        </i>
+                    </div>
+
+                    <div class="b32 box" id="box5">
+                        <i class="fa fa-close">
+                        </i>
+                    </div>
+
+                    <div class="b32 box" id="box6">
+                        <i class="fa fa-circulo">
+                        </i>
+                    </div>
+
+                    <div class="b32 box" id="box7">
+                        <i class="fa fa-close">
+                        </i>
+                    </div>
+
+                    <div class="b32 box" id="box8">
+                        <i class="fa fa-close">
+                        </i>
+                    </div>
+
+                    <div class="b32 box" id="box9">
+                        <i class="fa fa-close">
+                        </i>
+                    </div>
                 </div>
 
-                <div class="divisor-min"></div>
+                <div class="divisor-min">
+                </div>
 
-                <button class="w100 tcenter">
-                    Reiniciar Partida
-                </button>
+                <div class="botao">
+                    <button>
+                        Reiniciar Partida
+                    </button>
+                </div>
             </div>    
         </section>
 
-        <script src="https://3ws.dev.br/tec/js/3ws_.js"></script>	
-        <script type="text/javascript">		
-            (function( $ ){
-                $(document).ready(function( $ ) {
-
-                    function ajustaltura(){
-                        $(".box").each(function(){
-                            var boxw = $(this).width();
-                            $(this).height(boxw);
-                        });
-                    }
-                    ajustaltura();
-
-                    if(window.attachEvent) {window.attachEvent('onresize', function(event){			
-                        ajustaltura();
-                    });}else if(window.addEventListener){window.addEventListener('resize', function(event){			
-                        ajustaltura();
-                    ;}, true);}else{console.log('Seu navegador não suporta alguns efeitos de Javascript');}
-                                    
-                });	
-            })(jQuery);
+        <script src="https://3ws.dev.br/tec/js/3ws_.js">
+        </script>
+        <script src="script.js">
         </script>
     </body>
 </html>
