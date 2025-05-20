@@ -1,6 +1,5 @@
+// Responsividade dos elementos
 document.addEventListener("DOMContentLoaded", function () {
-
-    
     function ajustaAltura() {
         const boxes = document.querySelectorAll(".box");
         boxes.forEach(function (box) {
@@ -57,7 +56,7 @@ function testaClasses() {
 }
 
 // Botão de reiniciar
-document.getElementById("botao").addEventListener("click", function() {
+document.getElementById("botao1").addEventListener("click", function() {
   const icons = document.querySelectorAll(".box i");
   
   icons.forEach(icon => {

@@ -55,16 +55,19 @@ p {
     color: #215f94;
 }
 
-.botao {
-    display: block;
-    place-items: center;
-}
-
 button {
-    background: rgb(15, 255, 135);
     color: #fff;
     border: 2px solid #fff;
     border-radius: 5px;
     font-weight: bold;
-    padding: 3px;
+}
+
+#botao1 {
+    background: rgb(15, 255, 135);
+    padding: 5px 25px;
+}
+
+#botao2 {
+    background: #215f94;
+    padding: 5px 11px;
 }
